@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*format tag Link as default*/
+.link-route {
+    text-decoration: none;
+    color: unset;
+    margin: 0;
+    padding: 0;
+    bottom: unset;
+}

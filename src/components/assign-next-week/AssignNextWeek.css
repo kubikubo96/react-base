@@ -1,0 +1,41 @@
+.assignment-wap {
+    margin-bottom: 20px;
+}
+
+
+.assignment-wap .assignment-list div {
+    border-radius: 10px;
+}
+
+.assignment-wap .assignment-list {
+    width: 100%;
+}
+
+.assignment-wap .assignment-title h6 {
+    color: #000000;
+    padding: 10px;
+}
+
+.assignment-wap .assignment-title span {
+    color: #888;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.assignment-wap .assignment-content {
+    padding: 5px 0 5px 15px;
+    font-weight: 500;
+    overflow: hidden; /* make sure it hides the content that overflows */
+    white-space: nowrap; /* don't break the line */
+    text-overflow: ellipsis;
+    width: 65%;
+    float: left;
+}
+
+.assignment-wap .assignment-hour {
+    padding: 5px 0 5px 0;
+    color: #888;
+    font-weight: normal;
+    width: 25%;
+    float: right;
+}

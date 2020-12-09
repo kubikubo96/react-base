@@ -1,0 +1,42 @@
+.record-plans{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.record-plans.record-list div {
+    border-radius: 10px;
+}
+
+.record-plans .record-list {
+    width: 100%;
+}
+
+.record-plans .record-title h6 {
+    color: #000000;
+    padding: 10px;
+}
+
+.record-plans .record-title span {
+    color: #888;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.record-plans .record-content {
+    padding: 5px 0 5px 15px;
+    font-weight: 500;
+    overflow: hidden; /* make sure it hides the content that overflows */
+    white-space: nowrap; /* don't break the line */
+    text-overflow: ellipsis;
+    width: 65%;
+    float: left;
+}
+
+.record-plans .record-hour {
+    padding: 5px 0 5px 0;
+    color: #888;
+    font-weight: normal;
+    width: 25%;
+    float: right;
+}
+
